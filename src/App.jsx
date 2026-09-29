@@ -40,7 +40,12 @@ export default function App() {
         </p>
 
         <div className="mt-6 flex gap-4">
-          <button className="border bg-blue-600 text-white px-5 py-2 rounded">
+          <button
+            className="border bg-blue-600 text-white px-5 py-2 rounded"
+            onClick={() => {
+              window.open("https://github.com/keerthu1910", "_target");
+            }}
+          >
             GitHub
           </button>
         </div>
